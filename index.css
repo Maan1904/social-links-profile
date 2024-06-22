@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+.section1 {
+  background-color: hsl(0, 0%, 8%);
+  width: 350px;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+.img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.london {
+  color: hsl(75, 94%, 57%);
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  width: 100%;
+}
+.btn {
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+}
+.btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
